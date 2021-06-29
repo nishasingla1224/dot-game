@@ -1,0 +1,44 @@
+.project{
+	width: 500px;
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 20px;
+  background: lightgrey;
+  padding: 15px 5px;
+	.controls-section{
+		text-align: center;
+		.score-and-start{
+			margin-bottom: 10px;
+			.score{
+				display: inline-block;
+				vertical-align: top;
+				font-size: 24px;
+				font-weight: 600;
+				margin-right: 15px;
+			}
+			button{
+				display: inline-block;
+				vertical-align: top;
+				width: 100px;
+		    height: 30px;
+		    font-weight: bold;
+		    background: yellow;
+		    border-radius: 5px;
+			}
+		}
+	}
+	.game-container{
+		background: cadetblue;
+		margin: 0px auto;
+		position: relative;
+		border: 2px solid black;
+
+		.dots{
+			background: darkred;
+			border-radius: 50%;
+			position: absolute;
+			transition : top 1s;
+			border: 1px solid black;
+		}
+	}
+}
